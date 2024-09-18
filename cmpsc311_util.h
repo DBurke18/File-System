@@ -7,7 +7,7 @@
 //  Description   : This is a set of general-purpose utility functions we use
 //                  for the 311 homework assignments.
 //
-//  Author   : Patrick McDaniel
+//  Author   : 
 //  Created  : Sat Sep 21 06:47:40 EDT 2013
 //
 //  Change Log:
