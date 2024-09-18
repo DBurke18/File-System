@@ -4,7 +4,7 @@
 //  Description    : This file contains implementationsand data common to the
 //                   client and server of the FS3 filesystem.
 //
-//  Author         : Patrick McDaniel
+//  Author         : 
 //  Last Modified  : 
 //
 
