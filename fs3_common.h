@@ -7,7 +7,7 @@
 //  Description   : This file contains definitions common to the client and 
 //                  server executable of the FS3 filesystem.
 //
-//  Author        : Patrick McDaniel
+//  Author        :
 //  Last Modified : Thu 21 Oct 2021 07:03:31 AM EDT
 //
 
