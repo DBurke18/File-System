@@ -60,7 +60,7 @@ int fs3_init_cache(uint16_t cachelines)
         return -1;
     }
 
-    for (i = 0; i < (0x8); i++) // Walk array marking cachelines unused.
+    for (i = 0; i < cachelines; i++) // Walk array marking cachelines unused.
     {
         cacheStruct[i].trkFind = -1;
         cacheStruct[i].secFind = -1;
@@ -126,6 +126,7 @@ int fs3_put_cache(FS3TrackIndex trk, FS3SectorIndex sct, void *buf)
         }
     }
     current = cacheStruct[0].lastAcc; // LRU case, where you walk through the array searching for the least used access time and replacing that mem with the new one
+    memInd = 0; // Starting from valid index
     for (i = 0; i < maxCache; i++)
     {
         if (cacheStruct[i].lastAcc < current)
@@ -154,7 +155,6 @@ int fs3_put_cache(FS3TrackIndex trk, FS3SectorIndex sct, void *buf)
 
 void *fs3_get_cache(FS3TrackIndex trk, FS3SectorIndex sct)
 {
-    return NULL;
     int i;
     for (i = 0; i < maxCache; i++)
     {
