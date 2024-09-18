@@ -1,5 +1,5 @@
 #
-# CMPSC311 - F21 Assignment #3
+# 
 # Makefile - makefile for the assignment
 #
 
