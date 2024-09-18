@@ -23,3 +23,9 @@ To compile the project, use the following commands:
 ```bash
 make clean
 make
+```
+
+To test the program, use the following commands:
+
+```bash
+./fs3_client -v -l fs3_client_log_small.txt assign4-small-workload.txt
