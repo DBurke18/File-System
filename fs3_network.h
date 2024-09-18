@@ -6,7 +6,7 @@
 //  File          : fs3_network.h
 //  Description   : This is the network definitions for the FS3 system.
 //
-//  Author        : Patrick McDaniel
+//  Author        : 
 //  Last Modified : Sun Oct 30 07:48:47 EDT 2016
 //
 
