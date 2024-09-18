@@ -4,7 +4,7 @@
 //  Description    : This is the main program for the CMPSC311 programming
 //                   assignment #2 (beginning of FS3 interface).
 //
-//   Author        : Patrick McDaniel
+//   Author        : 
 //   Last Modified : Wed 15 Sep 2021 01:47:31 PM EDT
 //
 
