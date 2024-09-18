@@ -13,7 +13,7 @@
 //         given a level which is checked at run-time.  If the log level is
 //         enabled, then the entry it written to the log, and not otherwise.
 //
-//  Author   : Patrick McDaniel
+//  Author   : 
 //  Created  : Sat Sep 14 10:19:45 EDT 2013
 //
 
